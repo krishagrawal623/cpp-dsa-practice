@@ -1,0 +1,25 @@
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# C++ build files
+*.o
+*.obj
+*.out
+*.exe
+*.dSYM/
+
+# CMake (optional)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Code Runner
+tempCodeRunnerFile.cpp
+
+# Build folders
+bin/
+build/
