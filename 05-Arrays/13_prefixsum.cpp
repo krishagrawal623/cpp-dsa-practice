@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+
+// 5 4 3 2 1
+//5 
+void runningsum(vector<int> &v){
+    for(int i= 1;i<v.size();i++){
+        v[i] += v[i-1];
+
+    }
+    return ;
+}
+
+int main(){
+    int n;
+    cout<<"Enter Value of n: ";
+    cin>>n;
+
+    vector<int> v;
+
+    for(int i = 0;i<n;i++){
+        int elements;
+        cin>>elements;
+        v.push_back(elements);
+        
+    }
+    runningsum(v);
+
+    for(int i = 0;i<n;i++){
+        cout<<v[i]<<" ";
+
+    }
+    
+}
